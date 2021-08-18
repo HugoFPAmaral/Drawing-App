@@ -1,2 +1,2 @@
 # Drawing-App
-<li><a target="_blank" href="https://hugofpamaral.github.io/Drawing-App/" >Play here</a></li>
+<li><a href="https://hugofpamaral.github.io/Drawing-App/" target="_blank">Play here</a></li>
