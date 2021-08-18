@@ -1,0 +1,173 @@
+body{
+    text-align: center;
+    background: url(image/background.jpg) center center fixed;
+    background-size: cover;
+}
+
+.title{
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    background: -webkit-linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    background: -moz-linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    background: -o-linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    background: -ms-linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    height: 100px;
+    width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+#paintColor{
+    width: 125px;
+    height: 25px;
+}
+
+.inputContainer{
+    width: 200px;
+    margin: 0px auto;  
+}
+
+.input{
+    height: 50px;
+    font-size: 1.5em;
+}
+
+#circle{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: -webkit-translate(-50%, -50%);
+    transform: -moz-translate(-50%, -50%);
+    transform: -o-translate(-50%, -50%);
+    transform: -ms-translate(-50%, -50%);
+}
+
+#thicknessInput{
+    position: relative;
+}
+
+#container{
+    width: 68%;
+    height: 500px;
+    margin: 0px;
+    margin-left: 18%;
+}
+
+#paint{
+    background-color:white;
+    cursor: crosshair;
+}
+
+.inputButtons{
+    width: 399px;
+    margin: 10px auto;
+}
+
+.inputBtn{
+    width: 133px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+}
+
+.button{
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    background: linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    background: -webkit-linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    background: -moz-linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    background: -o-linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    background: -ms-linear-gradient(rgb(138, 115, 221), rgba(20, 119, 177, 0.9));
+    cursor: pointer;
+    box-shadow: 0px 4px rgb(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 4px rgb(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 4px rgb(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 4px rgb(0, 0, 0, 0.3);
+    -ms-box-shadow: 0px 4px rgb(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.button:hover{
+    background: white;
+    color:  rgba(20, 119, 177, 0.9);
+}
+
+.button:active{
+    top:4px;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.eraseMode{
+    background: red;
+    color: white;
+}
+
+#save:active{
+    background:green;
+    color: white;
+}
+
+@media (max-width: 1920px) {
+   
+    #container{
+        width: 62%;
+        height: 550px;
+        margin: 0px;
+        margin-left: 21%;
+    }
+
+    #paint{
+        width: 100%;
+        height: 550px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #container{
+        width: 70%;
+        height: 500px;
+        margin: 0px auto;
+    }
+
+    #paint{
+        width: 100%;
+        height: 500px;
+    }
+
+
+
+
+}
+
+@media (max-width: 575px) {
+
+    #container{
+        width: 390px;
+        height: 450px;
+        margin: 0px auto;
+    }
+
+
+    #paint{
+        width: 100%;
+        height: 450px;
+    }
+
+} 
